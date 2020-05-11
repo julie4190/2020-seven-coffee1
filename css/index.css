@@ -74,12 +74,12 @@
 
 .photo-wrap>.photos {
 
-	width: 25%; width: 25%;float: left;text-align: left;
+	width: 25%; width: 25%;text-align:center;float: left;
 	margin: 0.5%;
-padding: 20px;
+padding: 40px 40px;
 }
 
-.photos {text-align: right;float: right;
+.photos {text-align:center;float: right;
 	
 	width:25%;
 
