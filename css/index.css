@@ -3,7 +3,8 @@
 /* font-family: 'Roboto Condensed', sans-serif; */
 /* common */
 .img {
-	max-width: 100%;
+	max-width: 10000px;
+	margin: 0 auto;
 }
 
 .title {
@@ -20,34 +21,72 @@
 
 /* header */
 .header {
-	width: 100% auto;
-	float: none;
-}
-
-.header>.slogan {
-	text-align: center;
-	float: left;
-}
-
-.navi {
 	width: 100%;
-	margin: 0 auto;
-	border: 50px solid black;
-	background-color: black;
-	color: white;
-	text-align: center;
+	height: 85%;
 }
+
+
+
 
 .header {
 	background-image: url(../img/c-sl-005-768x512.jpg);
 	background-size: auto;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-attachment: scroll;
 }
 
 
 
 /* main-wrap */
+.main-wrap {
+	width: 100%;
+	height: 100%;
+	font-size: 30px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	padding: 16px 0;
+}
+
+/* about-wrap */
+.about-wrap {
+	border: 1px solid red;
+	padding: 40px 0;
+}
+.navs-wrap {width: 50%;border: 1px solid black;float: right;}
+.navi>.slogan {text-align: right;
+	font-size:27px ;
+	padding: 20px;
+	margin: 16px 0;
+}
+
+.desc {font-size:15px;
+	text-align:center;color: #ccc;
+	padding: 20px;
+	margin: 16px 0;
+}
+
+.photo-wrap {width: 50%;height: 50%;
+	border: 1px solid green;
+}
+
+.photo-wrap>.photos {
+
+	width: 25%; width: 25%;float: left;text-align: left;
+	margin: 0.5%;
+padding: 20px;
+}
+
+.photos {text-align: right;float: right;
+	
+	width:25%;
+
+	
+
+}
+
 /* locations */
 /* specialities */
 /* menu */
