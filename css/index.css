@@ -198,6 +198,25 @@
 	text-align: center;
 	font-size: 40px;
 }
-.photosss{width: 33.3333%;text-align: center;border: 1px solid red;float: left;padding: 10px; }
-/* news*/
+
+.photosss {
+	width: 33.3333%;
+	text-align: center;
+	border: 1px solid red;
+	float: left;
+	padding: 10px;
+}
+
 /* press about us*/
+.press-wrap 
+{
+	height: 100vh;
+
+	position: relative;
+	/* background: url('../img/c-sl-011.jpg')no-repeat center; */
+	background-image: url('../img/c-sl-011.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
