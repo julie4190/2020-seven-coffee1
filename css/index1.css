@@ -23,6 +23,7 @@
 }
 
 .logo {
+	text-align: center;
 	font-size: 50px;
 	color: black;
 }
@@ -47,31 +48,206 @@
 	background-size: cover;
 	position: relative;
 }
-.main-wrap .navi {width: 100%; background-color: #000; padding: 16px 0; position: absolute; bottom: 0;}
+
+.main-wrap .navi {
+	width: 100%;
+	background-color: #000;
+	padding: 16px 0;
+	position: absolute;
+	bottom: 0;
+}
 
 
 
 
 /****************  about-wrap  ****************/
 
-.about-wrap > div {width: 50%; float: left; padding: 100px 0;}
-.photos {width: 49%; float: left;}
-.photos > :last-child {margin-top: 23px;}
-.photosi {width: 49%; float: left; margin-left: 2%;}
-.navi > .slogan{text-align: center;font-size: 27px;font-weight: bold;color: #333;}
-.desc {font-size: 12px;color: #888;padding: 16px 16px;text-align: center;font-weight: lighter ;margin: 10px 10px;}
-.bts >{background-color: yellow;padding: 10px 0;margin: 0 auto;}
+.about-wrap>div {
+	width: 50%;
+	float: left;
+	padding: 100px 0;
+}
+
+.photos {
+	width: 49%;
+	float: left;
+}
+
+.photos> :last-child {
+	margin-top: 23px;
+}
+
+.photosi {
+	width: 49%;
+	float: left;
+	margin-left: 2%;
+}
+
+.navi>.slogan {
+	text-align: center;
+	font-size: 27px;
+	font-weight: bold;
+	color: #333;
+}
+
+.desc {
+	font-size: 12px;
+	color: #888;
+	padding: 16px 16px;
+	text-align: center;
+	font-weight: lighter;
+	margin: 10px 10px;
+}
+
+.bts>.div {
+	color: yellow;
+	padding: 10px 0;
+	margin: 0 auto;
+}
 
 /****************  loc-wrap  ****************/
-.loc-wrap {width: 100%; height: 100vh; background: url(../img/c-sl-005-768x512.jpg) no-repeat center; background-size: cover; padding: 100px 0;}
-.loc-conts {border: 1px solid red;}
-.loc-conts > div {width: 32%; height: 500px; float: left; background:white;}
-.loc-conts > :nth-child(2) {margin: 0 2%;}
-.loc-contss {padding:16px 16px ;}
+.loc-conts>.logo {
+	color: white;
+}
+
+.loc-wrap {
+	width: 100%;
+	height: 100vh;
+	background: url(../img/c-sl-005-768x512.jpg) no-repeat center;
+	background-size: cover;
+	padding: 100px 0;
+}
+
+.loc-conts {
+	border: 1px solid red;
+	text-align: center;
+}
+
+.loc-conts>div {
+	width: 32%;
+	height: 500px;
+	float: left;
+	background: white;
+}
+
+.loc-conts> :nth-child(1) {
+	margin: 0 2%;
+}
+
+.loc-conts> :nth-child(3) {
+	margin: 0 2%;
+}
+
+
 /**************** circle-wrap  ****************/
+.circle-wrap>.circles {
+	text-align: center;
 
-.circles {width: 300px;padding: 16px 16px; margin: 0 auto;float: left;border: 1px solid red;}
-.circles > img {border-radius: 50%;}
-.circle-wrap >.logo {font-size: 50px;text-align: center;padding: 16px 0;font-weight: bold;color: #222;}
+}
 
-/****************  about-wrap  ****************/
+.circles {
+	width: 300px;
+	padding: 16px 16px;
+	margin: 0 auto;
+	float: left;
+}
+
+.circles>img {
+	border-radius: 50%;
+}
+
+.circle-wrap>.logo {
+	font-size: 50px;
+	padding: 16px 0;
+	font-weight: bold;
+	color: #222;
+	text-align: center;
+}
+
+.circles>.list {
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 5px;
+	color: #222;
+}
+
+.circles>.lists {
+	font-size: 16 px;
+	line-height: 34px;
+	color: #e7b35a;
+}
+
+/****************  menu-wrap  ****************/
+.menu-wrap .wrapper>.menus {}
+
+.menu-wrap>.menus {
+	width: 100px;
+}
+
+.menus>img {
+	border-radius: 50%;
+}
+
+.menus {
+	margin: 40px 150px;
+	float: left;
+	text-align: center;
+	padding: -5px;
+	margin-top: 5px;
+}
+
+
+.menu-wrap {
+	text-align: center;
+}
+
+
+
+
+.menu-wrap>.logo {
+
+	border: 1px solid red;
+
+}
+
+/****************  new-wrap  ****************/
+.new-wrap {
+	width: 100%;
+	height: 100vh;
+background-color: green;
+	background-size: cover;
+	padding: 100px 0;
+}
+
+.new-conts {
+	border: 1px solid red;
+	text-align: center;
+}
+
+.new-conts>div {
+	width: 32%;
+	height: 500px;
+	float: left;
+	background:red;
+}
+
+.new-conts> :nth-child(1) {
+	margin: 0 2%;
+}
+
+.new-conts> :nth-child(3) {
+	margin: 0 2%;
+}
+/****************  press-wrap  ****************/
+.press-wrap{width: 100%;
+	height: 100vh;
+background: url(../img/c-sl-005-768x512.jpg) no-repeat center;
+	background-size: cover;
+	position: relative;	width: 100%;
+	height: 100vh;
+	
+	color: white;
+	text-align: center;}
+	.press-wrapper > .last-con{background-color: black;}
