@@ -28,7 +28,7 @@
 }
 
 
-.wrapper {max-width: 1200px; margin: auto; border: 1px solid red;}
+.wrapper {max-width: 1200px; margin: auto; }
 .about-wrap > div {width: 50%; float: left;}
 
 
@@ -39,7 +39,7 @@
 	font-size: 30px;
 	color: white;
 	text-align: center;
-	border: 10px solid red;
+	
 	background: url(../img/c-sl-005-768x512.jpg) no-repeat center;
 	background-size: cover;
 	position: relative;
