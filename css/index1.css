@@ -101,8 +101,9 @@ letter-spacing: normal;
 	border: 1px solid red;
 
 }
-.bts:hover{}
-.bts >.bts1{padding: 8px 14px 8px 14px;background-color: #e7b35a;color: white;float: left;font-size: 8px;margin: 40px 40px;font-weight: bold;}
+
+.bts >.bts1{padding: 8px 14px 8px 14px;background-color: #e7b35a;color: white;float: left;font-size: 8px;margin: 40px 40px;
+	font-weight: bold;}
 
 .bts >.bts2{padding: 8px 14px 8px 14px;background-color: #e7b35a;color: white;float: right;font-size: 8px;margin: 40px 40px;font-weight: bold;
 	}
@@ -190,7 +191,7 @@ letter-spacing: normal;
 
 /****************  menu-wrap  ****************/
 .meun-wrapper {
-	background-color: yellow;
+	background: yellow;
 	width: 100%;
 	height: 100vh;
 	background-size: cover;
