@@ -85,7 +85,7 @@
 	margin-left: 2%;
 }
 
-.navi>.slogan {padding:40px 30px ;
+.navi>.slogan {padding:40px 30px ;margin: 0 10px ;
 	text-align: center;
 	font-size: 27px;
 	font-weight: bold;
@@ -101,13 +101,16 @@ letter-spacing: normal;
 	border: 1px solid red;
 
 }
-.bts{text-align: center;}
-.bts >.bts1{padding: 10px;background-color: #e7b35a;color: white;float: left;}
-.bts >.bts2{padding: 10px;background-color: #e7b35a;color: white;float: right;}
+.bts:hover{}
+.bts >.bts1{padding: 8px 14px 8px 14px;background-color: #e7b35a;color: white;float: left;font-size: 8px;margin: 40px 40px;font-weight: bold;}
 
+.bts >.bts2{padding: 8px 14px 8px 14px;background-color: #e7b35a;color: white;float: right;font-size: 8px;margin: 40px 40px;font-weight: bold;
+	}
+.bts1:hover{background-color:#8a672b ;cursor: pointer;}
+.bts2:hover{background-color:#8a672b ;cursor: pointer;}
 
 /****************  loc-wrap  ****************/
-.loc-conts>.logo {
+.loc-conts>.logo {margin-top: 10px;
 	color: white;
 }
 
@@ -126,7 +129,7 @@ letter-spacing: normal;
 
 .loc-conts>div {
 	width: 32%;
-	height: 500px;
+	height: 600px;
 	float: left;
 	background: white;
 }
@@ -138,8 +141,12 @@ letter-spacing: normal;
 .loc-conts> :nth-child(3) {
 	margin: 0 2%;
 }
-
-
+.loc-contss{text-align: center;padding:15px 15px ;}
+.loc-contss >.slogan{font-size: 15px;color: #888;padding: 5px 15px;text-align:justify;margin: 20px 0;}
+.infos {font-size: 17px;font-weight: bold;color: #333;font-family:'Roboto Condensed', sans-serif;text-align: justify;padding:20px 20px;
+  }
+.bt {background-color: #e7b35a;color: white;font-size: 8px;width:120px ;height: 40px;margin: 40px 20px;}
+.bt > .btt{text-align: center;}
 /**************** circle-wrap  ****************/
 .circle-wrap>.circles {
 	text-align: center;
