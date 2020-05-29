@@ -157,7 +157,7 @@ letter-spacing: normal;
 .circle {
 	width: 300px;
 	padding: 16px 16px;
-	margin: 0 auto;
+	margin: 50px auto;
 	float: left;
 }
 
@@ -167,10 +167,10 @@ letter-spacing: normal;
 
 .circle-wrap>.logo {
 	font-size: 50px;
-	padding: 25px 0;
+	padding: 50px 0;
 	font-weight: bold;
 	color: #222;
-	text-align: center;
+	text-align: center;margin: 0 auto
 }
 
 .circle>.list {
@@ -190,18 +190,12 @@ letter-spacing: normal;
 }
 
 /****************  menu-wrap  ****************/
-.meun-wrapper {
-	background: yellow;
-	width: 100%;
-	height: 100vh;
-	background-size: cover;
-	padding: 100px 0;
-}
+.meun-wrap {}
 
-.menus>.logo {
-	text-align: center;
-	padding: 10px 10px;
-	margin: 0 auto;
+.meun-wrap>.logo {
+	text-align: center;padding: 20px 0;
+border: 1px solid red;
+
 }
 
 .menu {
@@ -235,20 +229,21 @@ letter-spacing: normal;
 	border: 1px solid red;
 	background-size: cover;
 	position: relative;
-	padding: 16px 0;
-	text-align: center;
-	background-color: #ddd
+	padding: 40px 0;
+	
+	background-color: #ddd;
 }
 
 
 
 .news>div {
 	width: 32%;
-	height: 500px;
+	height: 550px;
 	float: left;
-	background: #ccc;
+	background: #ccc;padding:20px 20px ;
 }
-
+.newss> .title{font-size:20px;text-align: left;font-weight: bold;font-family:'Roboto Condensed', sans-serif; }
+.newss> .date{font-size: 10px;}
 
 .news> :nth-child(1) {
 	margin: 0 2%;
@@ -259,7 +254,7 @@ letter-spacing: normal;
 }
 
 .newss>img {
-	padding: 25px 0;
+	padding:20px 0;
 	float: left;
 }
 
