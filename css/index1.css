@@ -307,9 +307,11 @@ letter-spacing: normal;
 
 .footers >.ad:nth-child(3) {margin: 0 1%;}
 /**************** copy-wrap  ****************/
-.copy-wrap >.copys { text-align: center;cursor: pointer;}
+.copy-wrap>.copys{text-align: center;color:black;border: 1px solid red;}
 
-.copy-wrap .copys .foursquare-icon:hover {background-color:orange; color: #fff;}
-.copy-wrap .copys  .facebook-icon:hover {background-color:orange; color: #fff;}
-.copy-wrap .copys  .youtube-icon:hover {background-color:orange; color: #fff;}
-.copy-wrap .copys  .insta-icon:hover {background-color:orange; color: #fff;}
+.copy-wrap >.copys { cursor: pointer;}
+
+.copy-wrap .copys .foursquare-icon:hover {background-color:orange; color: #fff;border-radius:50% ;width: 10%;}
+.copy-wrap .copys  .facebook-icon:hover {background-color:orange; color: #fff;border-radius:50% ;width: 10%;}
+.copy-wrap .copys  .youtube-icon:hover {background-color:orange; color: #fff;border-radius:50% ;width: 10%;}
+.copy-wrap .copys  .insta-icon:hover {background-color:orange; color: #fff;border-radius:50% ;width: 10%;}
