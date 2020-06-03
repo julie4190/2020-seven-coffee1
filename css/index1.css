@@ -124,7 +124,7 @@ letter-spacing: normal;
 }
 
 .loc-conts {
-	border: 1px solid red;
+
 	text-align: center;
 }
 
@@ -190,11 +190,11 @@ letter-spacing: normal;
 }
 
 /****************  menu-wrap  ****************/
-.meun-wrap {}
+
 
 .meun-wrap>.logo {
 	text-align: center;padding: 20px 0;
-border: 1px solid red;
+
 
 }
 
@@ -226,7 +226,7 @@ border: 1px solid red;
 .new-wrap {
 	width: 100%;
 	height: 100vh;
-	border: 1px solid red;
+
 	background-size: cover;
 	position: relative;
 	padding: 40px 0;
@@ -273,50 +273,43 @@ border: 1px solid red;
 .press-wrap {
 	max-width: 10000px;
 	width: 100%;
-	height: 100vh;
+	height:100vh;
 	background: url(../img/c-sl-011.jpg) no-repeat center;
 	background-size: cover;
 	padding: 0px 100;
 }
 
-.pressis>.logo {position: relative;
+.pressis>.logo {padding: 40px 0;
 	color: white;
 }
+.press-wrap >.pressis {width: 101%; margin-left: -0.5%; margin-top: 40px;}
 
-.presss-wrap {
-	border: 1px solid red;
-	text-align: center;
+
+
+.press-wrap >.pressis{width: 24%; margin: 0.5%; float: left; background: white;
 }
+.presss-wrap .desc{font-size: 15px;text-align: justify;padding: 10px 10px;font-family:'Roboto Condensed', sans-serif;margin: 0 auto;}
 
-.presss-wrap>div {
-	background: white;
-	width: 15%;
-	height: 350px;max-width: 1200px;
-	float: right;
+
+
+
+
+
+
+
+/****************  footer-wrap  ****************/
+.footer-wrap{
+	background: black;height:50vh;position: relative;
 }
+.footer-wrap > .logos{padding: 60px 0;text-align: center;}
+.footer-wrap > .footers{color:white; width: 33.3333%; text-align:center;float: left;} 
+.footers >.ad:nth-child(1) {margin: 0 1%;}
 
+.footers >.ad:nth-child(3) {margin: 0 1%;}
+/**************** copy-wrap  ****************/
+.copy-wrap >.copys { text-align: center;cursor: pointer;}
 
-.presss-wrap>div:nth-child(1) {
-	margin: 0 1%;
-}
-
-.presss-wrap>div:nth-child(2) {
-	margin: 0 1%;
-}
-
-.presss-wrap>div:nth-child(3) {
-	margin: 0 1%;
-}
-
-.presss-wrap>div:nth-child(4) {
-	margin: 0 1%;
-}
-
-.presses {
-	background: black;
-	width: 100%;
-	height: 450px;
-	margin: 70px 0 0 0;
-}
-.presseis{padding: 60px 0;}
-.presseiss{color:white;padding:20px 0 ;width: 100%;float: left;text-align:center;} 
+.copy-wrap .copys .foursquare-icon:hover {background-color:orange; color: #fff;}
+.copy-wrap .copys  .facebook-icon:hover {background-color:orange; color: #fff;}
+.copy-wrap .copys  .youtube-icon:hover {background-color:orange; color: #fff;}
+.copy-wrap .copys  .insta-icon:hover {background-color:orange; color: #fff;}
