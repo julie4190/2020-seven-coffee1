@@ -210,7 +210,7 @@
 
 }
 
-.circle {
+.circle {position: relative;
 	width: 300px;
 	padding: 16px 16px;
 	margin: 50px auto;
@@ -247,7 +247,7 @@
 }
 
 /****************  menu-wrap  ****************/
-
+.menu-wrap{background: gray;}
 
 .meun-wrap>.logo {
 	text-align: center;
@@ -263,14 +263,14 @@
 }
 
 
-.menu>img {
+.menu-wrap>.img{
 	width: 8%;
 	height: 8%;
-	border-radius: 50%;
+	border-radius: 50%;text-align: center;float: left;
 }
 
 .menus>.menuis {
-	text-align: left;
+	
 }
 
 
