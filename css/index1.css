@@ -247,7 +247,7 @@
 }
 
 /****************  menu-wrap  ****************/
-.menu-wrap {max-width:10000px;
+.menu-wrap {max-width:10000px; 
 	background:#e9e8e859;display: inline-block;position: relative;}
 
 .meun-wrap>.logo {
@@ -257,9 +257,9 @@
 
 
 
-.menu-wrap>.menuss{margin:100px auto;}
+.menu-wrap>.menuss{margin:2px auto;text-align: center;float: left;width:33.3333% ;}
 
-.menuss >img{border-radius:50%;text-align: center;width: 5%;height: 5%;margin:80px 100px;float: left;}
+.menuss >img{border-radius:50%;width: 10%;height: 10%;}
 
 
 
