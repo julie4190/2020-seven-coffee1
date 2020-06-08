@@ -24,8 +24,8 @@
 
 .logo {
 	text-align: center;
-	font-size: 60px;
-	color: black;
+	font-size: 50px;
+	color:#333;
 }
 
 
@@ -34,6 +34,14 @@
 	max-width: 1200px;
 	text-align: center;
 	margin: 0 auto;
+}
+
+.banner {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+
 }
 
 
@@ -45,17 +53,20 @@
 	font-size: 30px;
 	color: white;
 	text-align: center;
-
+	margin: 16px 0;
 	background: url(../img/c-sl-005-768x512.jpg) no-repeat center;
 	background-size: cover;
 	position: relative;
 }
 
-.main-wrap .navi {
+.main-wrap>.navi {
 	width: 100%;
 	background-color: #000;
-	padding: 16px 0;
+	padding: 20px 0;
 	position: absolute;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 50px;
 	bottom: 0;
 }
 
@@ -101,7 +112,7 @@
 	text-align: center;
 	font-weight: 50;
 	padding: 20px 40px 40px 40px;
-	
+
 }
 
 .bts>.bts1 {
@@ -209,16 +220,23 @@
 
 }
 
-.circle {
+.circless>.circle {
 
 	width: 300px;
 	padding: 16px 16px;
-	margin: 50px auto;float: left;
+	margin: 50px auto;
+	float: left;
 
 }
 
 .circle>img {
 	border-radius: 50%;
+	cursor: pointer;
+}
+
+.circle>img:hover {
+	background-color: orange;
+
 }
 
 .circle-wrap>.logo {
@@ -228,6 +246,11 @@
 	color: #222;
 	text-align: center;
 	margin: 0 auto
+}
+
+.circle-wrap>.circles>span {
+	color: #e7b35a;
+	;
 }
 
 .circle>.list {
@@ -247,22 +270,48 @@
 }
 
 /****************  menu-wrap  ****************/
-.menu-wrap {max-width:10000px; 
-	background:#e9e8e859;display: inline-block;position: relative;}
+.menu-wrap {
+	max-width: 10000px;
+	background: #e9e8e859;
+	display: inline-block;
+	position: relative;
+}
 
-.meun-wrap>.logo {
+.meuns>.logo {
 	text-align: center;
+	margin-top: 20px;
+}
+
+.menus>span {
+	color: #e7b35a;
+	;
 }
 
 
 
+.menu-wrap>.menuss {
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+	float: left;
+	width: 33.3333%;
+	padding: 20px 0;
 
-.menu-wrap>.menuss{margin:2px auto;text-align: center;float: left;width:33.3333% ;}
+}
 
-.menuss >img{border-radius:50%;width: 10%;height: 10%;}
+.menuss>img {
+	border-radius: 50%;
+	width: 12%;
+	height: 12%;
 
+}
 
+.menuss>span {
+	padding: 10px 0;
+}
 
+.menuss>p {
+	color: #e7b35a;
+}
 
 
 
@@ -272,7 +321,6 @@
 .new-wrap {
 	width: 100%;
 	height: 100vh;
-
 	background-size: cover;
 	position: relative;
 	padding: 40px 0;
@@ -286,7 +334,7 @@
 	width: 32%;
 	height: 550px;
 	float: left;
-	background: #dddadafd;
+	background: #e9e8e859;
 	padding: 40px 20px;
 }
 
@@ -367,7 +415,9 @@
 	color: white;
 }
 
-
+.pressis>span {
+	color: orange;
+}
 
 .presss-wrap {
 	width: 15%;
