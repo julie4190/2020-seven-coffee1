@@ -51,7 +51,7 @@
 .main-wrap {
 	width: 100%;
 	height: 100vh;
-	font-size: 30px;
+
 	color: white;
 	text-align: center;
 	margin: 16px 0;
@@ -63,15 +63,20 @@
 .main-wrap>.navi {
 	width: 100%;
 	background-color: #000;
-	padding: 20px 0;
+
 	position: absolute;
 	font-weight: bold;
-	font-size: 20px;
+
 	line-height: 50px;
 	bottom: 0;
 }
 
-
+.main-wrap>span {
+	font-size: 24px;
+	line-height: 50px;
+	padding: 40px 20px;
+	
+}
 
 
 /****************  about-wrap  ****************/
@@ -148,6 +153,7 @@
 
 /****************  loc-wrap  ****************/
 .loc-conts>.logo {
+	margin-top: 10px;
 	color: white;
 }
 
@@ -156,9 +162,11 @@
 	height: 100vh;
 	background: url(../img/c-sl-005-768x512.jpg) no-repeat center;
 	background-size: cover;
+	padding: 100px 0;
 }
 
 .loc-conts {
+
 	text-align: center;
 }
 
@@ -167,7 +175,6 @@
 	height: 600px;
 	float: left;
 	background: white;
-	position: relative;
 }
 
 .loc-conts> :nth-child(1) {
@@ -272,7 +279,7 @@
 .menu-wrap {
 	max-width: 10000px;
 	background: #e9e8e859;
-	display: inline-block;
+	border: 1px solid red;
 	position: relative;
 }
 
@@ -283,30 +290,28 @@
 
 .menus>span {
 	color: #e7b35a;
-	;
+	
 }
 
 
 
-.menu-wrap>.menuss {
+.menuis-wrap >.menuss {font-size:15px;
 	font-weight: bold;
 	font-family: 'Roboto Condensed', sans-serif;
 	float: left;
 	width: 33.3333%;
-	padding: 20px 0;
+	
 
 }
 
-.menuss>img {
+.menuis-wrap >img {
 	border-radius: 50%;
-	width: 12%;
-	height: 12%;
+	width: 10%;
+	height: 10%;
 
 }
 
-.menuss>span {
-	padding: 10px 0;
-}
+.menuis-wrap>span {font-size: 10px;}
 
 .menuss>p {
 	color: #e7b35a;
@@ -328,10 +333,6 @@
 
 }
 
-.news>span {
-	color: #e7b35a;
-	;
-}
 
 
 .newss {
@@ -382,11 +383,11 @@
 	border-bottom: orange;
 }
 
-.newss>:nth-child(1) {
+.news> :nth-child(1) {
 	margin: 0 2%;
 }
 
-.newss>:nth-child(3) {
+.news> :nth-child(3) {
 	margin: 0 2%;
 }
 
@@ -410,9 +411,8 @@
 	width: 100%;
 	height: 100vh;
 	background: url(../img/c-sl-011.jpg) no-repeat center;
-
 	background-size: cover;
-	padding: 0px 100;
+
 }
 
 .pressis>.logois {
@@ -430,23 +430,23 @@
 	background: white;
 	font-size: 20px;
 	text-align: center;
+	color: #888;
+	font-weight: 200px;
 
-	font-weight: bold;
-	display: inline-block;
 }
 
 
 
 
-.presss-wrap:nth-child(2) {
+.press-wrap:nth-child(2) {
 	margin: 0 1%
 }
 
 
 
 
-.presss-wrap:nth-child(4) {
-	margin: 0 1%;
+.press-wrap:nth-child(4) {
+	margin: 1% 0;
 }
 
 
@@ -454,12 +454,12 @@
 
 
 .presss-wrap>.desc {
-	font-size: 15px;
-
-	padding: 10px 10px;
+	font-size: 1rem;
 	font-family: 'Roboto Condensed', sans-serif;
-	margin: 0 auto;
+	margin: 10px 0 20px 0;
+	text-align: center;
 }
+
 
 
 
@@ -493,11 +493,11 @@
 }
 
 .footeris>.ad:nth-child(1) {
-	margin: 0 10%;
+	margin: 0 20%;
 }
 
 .footeris>.ad:nth-child(3) {
-	margin: 0 10%;
+	margin: 0 20%;
 }
 
 /****************  copy-wrap  ****************/
