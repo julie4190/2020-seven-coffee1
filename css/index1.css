@@ -128,6 +128,10 @@
 
 }
 
+.navs-wrap .bts {text-align: center; margin-top: 1rem;}
+.navs-wrap button {border: none; background-color: #e7b35a; padding: 0.75rem 1rem;}
+
+/*
 .bts>.bts1 {
 	padding: 8px 14px 8px 14px;
 	background-color: #e7b35a;
@@ -157,7 +161,7 @@
 	background-color: #8a672b;
 	cursor: pointer;
 }
-
+*/
 /****************  loc-wrap  ****************/
 .loc-conts>.logo {
 	color: white;
@@ -226,28 +230,25 @@
 }
 
 /**************** circle-wrap  ****************/
-.circle-wrap>.circles {
+.circle-wrap > .circles {
 	text-align: center;
-
 }
 
-.circless>.circle {
-
-	width: 300px;
-	padding: 16px 16px;
-	margin: 50px auto;
+.circles > .circle {
+	width: 23%;
+	margin: 0 1%;
 	float: left;
-
 }
 
-.circle>img {
+.circles > .circle > div {
 	border-radius: 50%;
-	cursor: pointer;
+	overflow: hidden;
+	background-color: #e7b35a;
 }
 
-.circle>img:hover {
-	background-color: orange;
 
+.circle:hover img {
+	opacity: 0.7;
 }
 
 .circle-wrap>.logo {
@@ -282,10 +283,9 @@
 
 /****************  menu-wrap  ****************/
 .menu-wrap {
-	max-width: 10000px;
 	background: #e9e8e859;
-	display: inline-block;
 	position: relative;
+	text-align: center;
 }
 
 .meuns>.logo {
@@ -300,27 +300,29 @@
 
 
 
-.menu-wrap>.menuss {
+.menu-wrap .menu {
 	font-weight: bold;
 	font-family: 'Roboto Condensed', sans-serif;
 	float: left;
-	width: 33.3333%;
+	width: 31.3333%;
+	margin: 1%;
 	padding: 20px 0;
-
+	border-bottom: 1px dashed #999;
 }
 
-.menuss>img {
+.menu > img {
 	border-radius: 50%;
 	width: 12%;
 	height: 12%;
-
+	float: left;
 }
 
-.menuss>span {
+.menu > div {
 	padding: 10px 0;
+	float: left;
 }
 
-.menuss>p {
+.menu>p {
 	color: #e7b35a;
 }
 
