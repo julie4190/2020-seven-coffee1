@@ -51,7 +51,7 @@
 .main-wrap {
 	width: 100%;
 	height: 100vh;
-	font-size: 30px;
+
 	color: white;
 	text-align: center;
 	margin: 16px 0;
@@ -62,16 +62,28 @@
 
 .main-wrap>.navi {
 	width: 100%;
+	height: 10%;
 	background-color: #000;
-	padding: 20px 0;
 	position: absolute;
 	font-weight: bold;
-	font-size: 20px;
 	line-height: 50px;
 	bottom: 0;
+	font-size: 20px;
+
+	padding: 20px 20px;
 }
 
 
+
+
+.main-wrap>.navi:hover {
+	color: #e6ac65;
+	display: block;
+}
+
+.main-wrap>.navi {
+	cursor: pointer;
+}
 
 
 /****************  about-wrap  ****************/
@@ -122,7 +134,7 @@
 	color: white;
 	float: left;
 	font-size: 8px;
-	margin: 40px 40px;
+	margin: 40px 60px;
 	font-weight: bold;
 }
 
@@ -132,7 +144,7 @@
 	color: white;
 	float: right;
 	font-size: 8px;
-	margin: 40px 40px;
+	margin: 40px 60px;
 	font-weight: bold;
 }
 
@@ -180,9 +192,9 @@
 
 .loc-contss {
 	text-align: center;
-	padding: 15px 15px;
+	padding: 15px 15px;cursor: pointer;background-color: #e7b35a;
 }
-
+.loc-contss>.img:hover{color: #e7b35a;}
 .loc-contss>.slogan {
 	font-size: 15px;
 	color: #888;
@@ -320,12 +332,13 @@
 .new-wrap {
 	width: 100%;
 	height: 100vh;
-
 	background-size: cover;
 	position: relative;
-	padding: 40px 0;
+	padding: 40px 20;
+}
 
-
+.news>.logo {
+	padding: 10px 0;
 }
 
 .news>span {
@@ -336,28 +349,30 @@
 
 .newss {
 	width: 32%;
-	height: 550px;
+	height: 650px;
 	float: left;
 	background: #e9e8e859;
 	padding: 40px 20px;
 }
 
 .newss>.title {
-	font-size: 1.17em;
-	text-align: left;
+	font-size: 24px;
+	text-align: center;
 	font-weight: bold;
 	font-family: 'Roboto Condensed', sans-serif;
-	line-height: 20px;
 	color: #333;
-	padding: 5px 0;
-	margin: 10px auto;
-	font-style: normal;
-}
+	padding: 5px 10px;cursor: pointer;
 
+	
+}
+.newss>.title:hover {
+	color: orange;
+	border-bottom: orange;
+}
 .newss>.date {
 	font-size: 0.75em;
 	text-align: left;
-	color: #888;
+	color: #888;	padding: 5px 10px;
 }
 
 .desc>p {
@@ -366,7 +381,7 @@
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 1em;
 	color: #888;
-	margin: 10px 0 20px 0;
+	padding: 5px 30px;
 }
 
 .more>p {
@@ -374,7 +389,7 @@
 	color: #333;
 	font-size: 0.75em;
 	font-weight: bold;
-	cursor: pointer;
+	cursor: pointer;	padding: 5px 30px;
 }
 
 .more>p:hover {
@@ -383,11 +398,11 @@
 }
 
 .newss>:nth-child(1) {
-	margin: 0 2%;
+	margin: 0 5%;
 }
 
 .newss>:nth-child(3) {
-	margin: 0 2%;
+	margin: 0 5%;
 }
 
 .newss>.img {
@@ -410,7 +425,6 @@
 	width: 100%;
 	height: 100vh;
 	background: url(../img/c-sl-011.jpg) no-repeat center;
-
 	background-size: cover;
 	padding: 0px 100;
 }
@@ -430,7 +444,7 @@
 	background: white;
 	font-size: 20px;
 	text-align: center;
-
+	color: #888;
 	font-weight: bold;
 	display: inline-block;
 }
@@ -453,15 +467,19 @@
 
 
 
-.presss-wrap>.desc {
+.desc>p {
 	font-size: 15px;
-
-	padding: 10px 10px;
+	padding: 20px 30px;
 	font-family: 'Roboto Condensed', sans-serif;
-	margin: 0 auto;
+	line-height: 30px;
+	text-align: left;
+	font-weight: lighter;
 }
 
-
+.presss-wrap>.descs {
+	color: #333;
+	font-family: 'Roboto Condensed', sans-serif;
+}
 
 
 
@@ -490,14 +508,15 @@
 	font-size: 15px;
 	line-height: 22px;
 	font-family: 'Roboto Condensed', sans-serif;
+	padding: 10px 20px;
 }
 
 .footeris>.ad:nth-child(1) {
-	margin: 0 10%;
+	margin: 0 5%;
 }
 
 .footeris>.ad:nth-child(3) {
-	margin: 0 10%;
+	margin: 0 5%;
 }
 
 /****************  copy-wrap  ****************/
