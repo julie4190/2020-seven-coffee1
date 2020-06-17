@@ -1,0 +1,7 @@
+/****************  공통사항  ****************/
+.wrapper {max-width: 1200px; margin: auto; border: 1px solid red;}
+/****************  box-wrap  ****************/
+.dox-wrap{width: 100%; height: 100vh; background: url(../img/c-sl-008-550x786.jpg) no-repeat center; background-size: cover; padding: 100px 0;}
+.doxs {border: 1px solid red;}
+.doxs > div {width: 32%; height: 400px; float: left; background: yellow;}
+.doxs > :nth-child(2) {margin: 0 2%;}

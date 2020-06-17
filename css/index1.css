@@ -24,18 +24,20 @@
 
 .logo {
 	text-align: center;
-	padding: 10px 0;
+
 	font-size: 50px;
 	color: #333;
 }
 
 
 .wrapper {
-	width: 100%;
 	max-width: 1200px;
-	text-align: center;
-	margin: 0 auto;
+	margin: auto;
+	border: 10px solid red;
+	margin-top: 5%;
 }
+
+
 
 .banner {
 	background-repeat: no-repeat;
@@ -44,13 +46,14 @@
 	background-attachment: fixed;
 
 }
-
+.fa-bookmark{color: #e7b35a;text-align: center;}
 .bookmark-bar::before,
 .bookmark-bar::after {
 	width: 50px;
 	height: 4px;
 	background-color: #e7b35a;
-	display: block;text-align: center;
+	display: block;
+	text-align: center;
 	content: "";
 }
 
@@ -193,6 +196,7 @@
 }
 
 .loc-conts>span {
+	text-align: center;
 	color: #e7b35a;
 }
 
@@ -208,24 +212,19 @@
 
 .locc-wrap>.loc-cont {}
 
-.locc-wrap>.loc-cont {
-	width: 20%;
+.locc-contss>.loc-cont {
+	width: 32%;
 	height: 550px;
 	background-color: white;
-	float: left;
-	text-align: center;
-	padding: 20px 20px;
-}
-
-.locc-wrap>:nth-child(1) {
-	margin: 0 10%;
+	float: left;padding:20px 20px ;
 
 }
 
-.locc-wrap>:nth-child(3) {
-	margin: 0 10%;
+.locc-contss>:nth-child(2) {
+	margin: 0 2%;
 
 }
+
 
 
 .loc-cont>p {
@@ -260,7 +259,7 @@
 
 }
 
-.locc-wrap button {
+.locc-contss button {
 	border: none;
 	background-color: #e7b35a;
 	padding: 0.55rem 1.55rem;
@@ -341,10 +340,6 @@
 	margin-top: 20px;
 }
 
-.menu-wrap>span {
-	color: #e7b35a;
-
-}
 
 
 
@@ -403,14 +398,14 @@
 	padding: 10px 0;
 }
 
-.news>span {
+.newsos>span {
 	color: #e7b35a;
 
 }
 
 
-.newss-wrap .newsss {
-	width: 31.3333%;
+ .newss .newsss{
+	width: 32%;
 	height: 600px;
 	float: left;
 	text-align: center;
@@ -424,7 +419,8 @@
 	text-align: left;
 	font-weight: bolder;
 	font-family: 'Roboto Condensed', sans-serif;
-	color: #333;line-height:2 ;
+	color: #333;
+	line-height: 2;
 
 	cursor: pointer;
 }
@@ -437,7 +433,8 @@
 .newsss>.date>span {
 	font-size: 15px;
 	text-align: left;
-	color: #888;padding: 10px 10px;
+	color: #888;
+	padding: 10px 10px;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -464,8 +461,8 @@
 	border-bottom: orange;
 }
 
-.newss-wrap>:nth-child(2) {
-	margin: 0 2%;
+.newss>:nth-child(2) {
+	margin: 0 1%;
 }
 
 
@@ -484,17 +481,19 @@
 	background-size: cover;
 }
 
-.pressis>.logois {
+.pressis .logo {
 	font-size: 50px;
-	color: white;
+	color: white;margin-top: 5%;
 }
 
-.pressis>div {text-align: center;
+.pressee>span {
+	text-align: center;
 	color: #e7b35a;
+	
 }
 
-.presss-wrap>.presse {
-	width: 13%;
+.presss>.presse {
+	width: 22%;
 	height: 380px;
 	background: white;
 	font-size: 20px;
@@ -503,21 +502,18 @@
 	font-weight: bold;
 	float: left;
 	position: relative;
-	margin: 5% auto;
+
 }
 
 
 
 
 .presse:nth-child(1) {
-	margin: 5% 10%;
+	margin: 0 2%;
 }
 
-
-
-
 .presse:nth-child(3) {
-	margin: 5% 10%;
+	margin: 0 2%;
 }
 
 
@@ -540,7 +536,7 @@
 
 
 
-
+/****************  footer-wrap  ****************/
 
 
 .footer-wrap {
@@ -549,99 +545,56 @@
 	position: relative;
 }
 
-.footer-wrap>.logos {
-	padding: 60px 0;
+.footers>.logos {
+	padding: 20px 0;
 	text-align: center;
 }
 
 
 
-.footers-wrap>.footeris {
+.footerss>.footeris {
 	color: white;
 	width: 33.3333%;
 	text-align: center;
 	float: left;
 	font-weight: bold;
 	font-size: 15px;
-	line-height: 22px;
+	line-height: 25px;
 	font-family: 'Roboto Condensed', sans-serif;
-	padding: 10px 20px;
+
 }
 
-.footeris>.ad:nth-child(1) {
-	margin: 0 5%;
+.footeris>.ad:nth-child(2) {
+	margin: 0 2%;
 }
 
-.footeris>.ad:nth-child(3) {
-	margin: 0 5%;
-}
+
 
 /****************  copy-wrap  ****************/
-.copy-wrap {
-	background: black;
-	width: 10000%;
-}
 
 
-
-.copy-wrap>.copys {
+.copy-conss>.copys {
 	color: white;
 	background-color: #e7b35a;
 	border-radius: 50%;
-	min-width: 30px;
-	min-height: 30px;
-	line-height: 30px;
 
 	text-align: center;
+	float: left;
 	cursor: pointer;
-	display: inline-block;
-}
-
-
-
-.copy-wrap .copys .foursquare-icon:hover {
-
-	background-color: white;
-	border-radius: 50%;
-	color: #e7b35a;
-
 
 }
 
-.copy-wrap .copys .facebook-icon:hover {
-
-	background-color: white;
-	border-radius: 50%;
-	color: #e7b35a;
-}
-
-
-
-.copy-wrap .copys .youtube-icon:hover {
-
-
-	background-color: white;
-	border-radius: 50%;
-	color: #e7b35a;
-
-
-}
-
-.copy-wrap .copys .insta-icon:hover {
-
-	background-color: white;
-	border-radius: 50%;
-	color: #e7b35a;
-}
 
 
 
 
 
 
-.last-wrap .lasts {
+
+
+.last-wrap>.lasts {
 	position: relative;
-	margin-top: 50px;
+	padding: 16px 0;
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Roboto Condensed', sans-serif;
